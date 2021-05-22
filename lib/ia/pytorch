@@ -1,0 +1,7 @@
+import 'package:pytorch_mobile/pytorch_mobile.dart';
+
+
+
+Model encoder = await PyTorchMobile.loadModel('assets/ia/pytorch/encoder.pt');
+Model decoder = await PyTorchMobile.loadModel('assets/ia/pytorch/decoder.pt');
+
